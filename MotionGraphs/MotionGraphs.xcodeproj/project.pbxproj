@@ -342,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Muhammad Umer Asif (CG2B95G3W8)";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -354,7 +355,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ed79e940-0855-45fd-989f-94d936d71775";
+				PROVISIONING_PROFILE = "ea1963b1-d341-4fd8-9c21-d298b3c8e440";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
@@ -363,7 +364,8 @@
 		28DDC9CB15F858BB00570985 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Muhammad Umer Asif (CG2B95G3W8)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Digital Natives UG (hb.) (8U4UA34F86)";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -376,7 +378,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ed79e940-0855-45fd-989f-94d936d71775";
+				PROVISIONING_PROFILE = "cff8844e-9448-4493-9c1e-f01663f5880f";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
